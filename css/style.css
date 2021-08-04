@@ -1,0 +1,45 @@
+/* reset */
+*{margin: 0;padding: 0; box-sizing: border-box; }
+body{font-family: Georgia, serif; color: #252525;}
+/* menu */
+.menu{background: #252525; padding: 20px 0;}
+/* pesquisar: clearfix atigo */
+.menu-container{max-width: 960px; margin: auto;}
+/* sempre atribuido ao container dos elementos com flutuação, ele limpa a flutuação*/
+.menu-container::after, .menu-container::before{content:''; display: table; clear: both;}
+.logo{display: block; float: left;margin-left: 10px;}
+.menu-nav{float:right ; margin-right: 10px;}
+.menu-nav li{display: inline-block;}
+.menu-nav a{display: block; padding: 10px; text-decoration: none; color: #fff; font-size: 1.125em; }
+/* 
+por quanto voce quer dividir? / pelo pixel base
+          18   
+                         /        16
+18/16 = 1.125em  
+32/16 = 2em   
+
+é interessante colocar uma font base no HTML, geralmente é um 16 dos navegadoreres, mas para garantir, defina um font size no html
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
