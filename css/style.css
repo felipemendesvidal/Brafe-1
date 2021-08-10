@@ -54,8 +54,16 @@ por quanto voce quer dividir? / pelo pixel base
  .local{max-width:960px ; margin: 0 auto; padding: 20px 0;}
  .local-item {clear: both; margin: 60px auto;}
  .local-item::after, .local-item::before{content: ''; display: table; clear: both;}
+ /* outra forma de limpar o float
+ colocando no locais-item
+ overflow:hidden; mas o problema é que ele esconde os elementos, não concerta.
+ */
  .local-item > div{width: 460px; float: left; margin: 0 10px;}
  .local-item img{width: 460px; float: left; display: block; margin: 0 10px;}
+.local-item h2{font-size: 2.25em; margin-bottom: 20px;}
+.local-item p{font-size: 1.125em; line-height: 1.4em; max-width: 320px; margin-bottom: 40px;}
+.local-item a{font-size: 1.125em;  text-transform: uppercase; text-decoration: none; border:3px solid; color: #252525; padding: 10px 20px;}
+
 
 
 
