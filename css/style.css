@@ -50,6 +50,12 @@ por quanto voce quer dividir? / pelo pixel base
  h2.produtos-mineiro::before{color: #d7a54d;}
  .protudo-item p{font-size: 0.875em; line-height: 1.4em;}
  .produtos-btn {width: 180px; border: 3px solid #252525; color: #252525; text-decoration: none; display: block; font-size: 1.125em; font-weight: bold; text-transform: uppercase; text-align: center; padding: 15px 0; margin: 20px auto 0 auto;}
+ /* locais */
+ .local{max-width:960px ; margin: 0 auto; padding: 20px 0;}
+ .local-item {clear: both; margin: 60px auto;}
+ .local-item::after, .local-item::before{content: ''; display: table; clear: both;}
+ .local-item > div{width: 460px; float: left; margin: 0 10px;}
+ .local-item img{width: 460px; float: left; display: block; margin: 0 10px;}
 
 
 
