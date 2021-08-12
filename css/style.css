@@ -11,6 +11,11 @@ body{font-family: Georgia, serif; color: #252525;}
 .menu-nav{float:right ; margin-right: 10px;}
 .menu-nav li{display: inline-block;}
 .menu-nav a{display: block; padding: 10px; text-decoration: none; color: #fff; font-size: 1.125em; }
+/* breakpoint */
+@media only screen and (max-width: 739px){
+.menu-nav{float: none; clear: both;}
+
+}
 /* 
 por quanto voce quer dividir? / pelo pixel base
           18   
@@ -25,6 +30,10 @@ por quanto voce quer dividir? / pelo pixel base
 .intro h1{text-transform: uppercase; font-size: 3em;}
 .intro h1::after{content:''; display: block; width: 20px; height: 4px; background-color: #fff; margin: 10px auto;}
 .intro p{font-style: italic; font-size: 1.125em;}
+@media only screen and (max-width: 739px){
+    .intro{padding: 60px 0;}
+    
+    }
 /* sobre */
 .sobre{padding: 60px 0;}
 .sobre-container{max-width: 960px; margin: auto;}
@@ -34,7 +43,11 @@ por quanto voce quer dividir? / pelo pixel base
 .sobre-item img{display: block;max-width: 100%;}
 .sobre-item h3{font-size: 2.25em; background: #252525; color: #fff; width: 220px; font-style: italic; font-weight: normal; text-align: center; padding:5px 0 10px 0 ; line-height: 1em; position: relative; top: -25px;}
 .sobre > p{font-size: 1.125em; line-height: 1.4em; font-style: italic; text-align: center; margin: 20px auto; max-width: 460px;}
-
+@media (min-width: 740px) and ( max-width:980px){
+    .sobre-container{max-width:720px ;}
+    .sobre-item{ width: 300px;}
+    
+}
 /* produtos
  */
 
