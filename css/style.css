@@ -13,7 +13,9 @@ body{font-family: Georgia, serif; color: #252525;}
 .menu-nav a{display: block; padding: 10px; text-decoration: none; color: #fff; font-size: 1.125em; }
 /* breakpoint */
 @media only screen and (max-width: 739px){
-.menu-nav{float: none; clear: both;}
+    .menu{ text-align: center;}
+    a.logo{float: none; margin:0 auto;}
+    .menu-nav{float: none; clear: both;}
 
 }
 /* 
@@ -91,11 +93,13 @@ por quanto voce quer dividir? / pelo pixel base
 .local-item a{font-size: 1.125em;  text-transform: uppercase; text-decoration: none; border:3px solid; color: #252525; padding: 10px 20px;}
 @media (min-width: 740px) and ( max-width:980px){
     .local{max-width: 720px;}
-    .local-item > div{width: 300px;}
+    .local-item > div, .local-item img{width: 300px;}
+    
     
 }
 @media (max-width:739px){
-    .local{max-width: 300px;}
+    .local{max-width: 340px;}
+    .local-item > div, .local-item img{width: 300px; margin: 0px;}
    
 }
 /* assine */
@@ -110,6 +114,17 @@ por quanto voce quer dividir? / pelo pixel base
 .assine form input{box-sizing:border-box;width: 320px;border: 3px solid; color: #252525; background-color: transparent; font-size: 1.5em; font-style: italic; font-family: Georgia,  serif; padding: 10px; float: left;}
 .assine button{background-color: #252525; font-family: Georgia,  serif; text-transform: uppercase; font-size: 1.5em; width: 140px; padding: 13px 0; color: #fff;border: none; cursor: pointer;}
 
+@media (min-width: 740px) and ( max-width:980px){
+   .assine-container{max-width: 720px;}
+   .assine-info, .assine form, .assine input{width: 340px;}
+    
+}
+@media (max-width:739px){
+   .assine-container{max-width: 300px;}
+   .assine-info, .assine form, .assine input{width: 300px; margin: 10px 0px 0px 0px;}
+   
+}
+
 /* foooter
  */
  .footer{background-color: #d6d3c8; padding: 40px 0;}
@@ -118,6 +133,12 @@ por quanto voce quer dividir? / pelo pixel base
 .footer-container p { float: left; margin: 0 10px;font-size: 1.125em ; line-height: 1.4em;}
 .footer-container img{float: right; margin: 0 10px; display: block;}
 
+ @media (max-width:739px){
+   .footer-container{max-width: 300px;}
+   .footer p {float: none; margin:0;}
+   .footer img{float: none; margin: 20px 0;}
+    
+ }
 
 
 
